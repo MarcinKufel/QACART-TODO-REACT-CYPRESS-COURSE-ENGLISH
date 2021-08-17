@@ -1,0 +1,115 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #1c1c2f;
+    height: 60px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+
+h4 {
+    color: red;
+}
+
+.App-header h2 {
+    font-weight: 900;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Todo-App {
+    padding-top: 60px;
+    display: inline-block;
+    text-align: left;
+}
+
+.todo-header {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 30px;
+    outline: none;
+    color: #2c2c44;
+}
+
+ul {
+    padding: 0px;
+    margin-top: 70px;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.error {
+    color: red;
+    padding: 12px;
+}
+.success {
+    color: green;
+}
+
+.delete-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.todo-checkbox {
+    margin-right: 30px;
+}
+
+span delete-item a {
+    text-decoration: none;
+    color: red;
+}
+
+li:hover span.delete-item {
+    visibility: visible;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.footer a.active {
+    font-weight: bold;
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "qacart-todo_cypress",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "json-server": "^0.16.3",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4"
+    },
+    "devDependencies": {
+        "json-server-auth": "^2.0.2",
+        "react-scripts": "0.9.5"
+    },
+    "scripts": {
+        "start:frontend": "react-scripts start",
+        "start:server": "json-server -p 8080 db.json -m ./node_modules/json-server-auth -r routes.json",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}

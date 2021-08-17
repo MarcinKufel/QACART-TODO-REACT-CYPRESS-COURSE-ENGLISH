@@ -1,0 +1,54 @@
+{
+    "todos": [],
+    "users": [
+        {
+            "email": "olivier@mail.com",
+            "password": "$2a$10$.JUGmdIEktAji4NjSw6YBO16MIZsHW0c1iArb92nD/e33if6gnnxC",
+            "firstname": "Olivier",
+            "lastname": "Monge",
+            "age": 32,
+            "id": 1
+        },
+        {
+            "email": "hatem.hatamleh@gmail.com",
+            "password": "$2a$10$WGWOle/Rlii9hJX8Aud4oe3SUyh11vfUTNgNgZoL/7gG1lzV2w5Ue",
+            "firstname": "Hatem",
+            "lastname": "Hatamleh",
+            "age": 33,
+            "id": 2
+        },
+        {
+            "email": "test@mail.com",
+            "password": "$2a$10$LOHNy2rbllaS1Brd8rvrdO5CfuIEun/ANXlt99ivs0dnvMwnAc7QS",
+            "id": 3
+        },
+        {
+            "email": "olivie222r@mail.com",
+            "password": "$2a$10$iYES1adDcJseat4iamNMeO5vHvXFwvktnMmeIdRrY0trHFuDrDN3m",
+            "firstname": "Olivier",
+            "lastname": "Monge",
+            "age": 32,
+            "id": 4
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "courseTitle": "Full selenium course",
+            "duration": "18 hours",
+            "videos": 180
+        },
+        {
+            "id": 2,
+            "courseTitle": "Full appium course",
+            "duration": "16 hours",
+            "videos": 140
+        },
+        {
+            "id": 3,
+            "courseTitle": "Full Cypress course",
+            "duration": "8 hours",
+            "videos": 100
+        }
+    ]
+}
