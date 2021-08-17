@@ -13,16 +13,11 @@
     {
       "name": "Go to the market",
       "id": 5300,
-      "isComplete": false
+      "isComplete": true
     },
     {
       "name": "Study Cypress",
       "id": 4017,
-      "isComplete": false
-    },
-    {
-      "name": "run app locally",
-      "id": 6551,
       "isComplete": false
     }
   ],
