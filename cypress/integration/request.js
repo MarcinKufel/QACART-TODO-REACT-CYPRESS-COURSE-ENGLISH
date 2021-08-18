@@ -36,9 +36,12 @@ describe('Request command suite', () => {
     })
     })
 
-    it.only('Put request', () => {
+    it('Put request', () => {
         
         cy.request('PUT', 'http://localhost:8080/todos/7147', {"name":"test1","isComplete":true,"id":7147})
     })
 
+    it.only('Delete', () => {
+        cy.request('DELETE', 'http://localhost:8080/todos/7142')
+    })
 })
