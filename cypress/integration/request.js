@@ -27,13 +27,18 @@ describe('Request command suite', () => {
         })
     })
 
-    it.only('post request', () => {
+    it('post request', () => {
         cy.request('POST', 'http://localhost:8080/todos', {
             "name": "test1",
             "isComplete": false
         }).then(response => {
             expect(response.status).to.eq(201)
     })
+    })
+
+    it.only('Put request', () => {
+        
+        cy.request('PUT', 'http://localhost:8080/todos/7147', {"name":"test1","isComplete":true,"id":7147})
     })
 
 })
