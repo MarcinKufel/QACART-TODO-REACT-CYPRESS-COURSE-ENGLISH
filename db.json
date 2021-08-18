@@ -65,6 +65,14 @@
       "lastname": "Monge",
       "age": 32,
       "id": 4
+    },
+    {
+      "email": "olivier222@mail.com",
+      "password": "$2a$10$89oH662lOREPp8ztUJs7gO1XcEvB6Isovv2pUYdxPR1V.oDutyjvi",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 5
     }
   ],
   "courses": [
