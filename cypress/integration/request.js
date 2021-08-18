@@ -42,6 +42,6 @@ describe('Request command suite', () => {
     })
 
     it.only('Delete', () => {
-        cy.request('DELETE', 'http://localhost:8080/todos/7142')
+        cy.request('DELETE', 'http://localhost:8080/todos/7150')
     })
 })
