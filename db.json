@@ -1,41 +1,5 @@
 {
-  "todos": [
-    {
-      "name": "Play PES",
-      "id": 3051,
-      "isComplete": false
-    },
-    {
-      "name": "Contact Pauli",
-      "id": 7138,
-      "isComplete": true
-    },
-    {
-      "name": "Go to the market",
-      "id": 5300,
-      "isComplete": true
-    },
-    {
-      "name": "Study Cypress",
-      "id": 4017,
-      "isComplete": false
-    },
-    {
-      "name": "hello",
-      "id": 4309,
-      "isComplete": false
-    },
-    {
-      "name": "test1",
-      "isComplete": false,
-      "id": 7148
-    },
-    {
-      "name": "test1",
-      "isComplete": false,
-      "id": 7149
-    }
-  ],
+  "todos": [],
   "users": [
     {
       "email": "olivier@mail.com",
