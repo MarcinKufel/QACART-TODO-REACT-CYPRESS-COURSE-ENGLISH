@@ -21,7 +21,17 @@ describe('Todo UI testing', () => {
 
     })
 
-    afterEach(() => {
+    it('should delete a todo correctly', () => {
+        cy.addNewTodo("Third Todo");
         cy.get('.delete-item').click({multiple: true});
+
+    })
+
+    afterEach(() => {
+        cy.get('body').then($el => {
+            if($el.find('.delete-item'.length > 0))
+            cy.get('.delete-item').click();
+        })
+        
     })
 })
