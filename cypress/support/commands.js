@@ -39,19 +39,19 @@ Cypress.Commands.add("addDummyTodos", () => {
     const todos = [
         {
             "name": "Learn Cypress",
-            "isComplete": "false"
+            "isComplete": false
         },
         {
             "name": "build framework",
-            "isComplete": "true"
+            "isComplete": true
         },
         {
             "name": "shopping",
-            "isComplete": "false"
+            "isComplete": false
         },
         {
             "name": "drink coffee",
-            "isComplete": "true"
+            "isComplete": true
         },
     ]
 
