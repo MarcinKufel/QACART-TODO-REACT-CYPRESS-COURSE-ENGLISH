@@ -1,5 +1,11 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "name": "First Todo",
+      "id": 8654,
+      "isComplete": false
+    }
+  ],
   "users": [
     {
       "email": "olivier@mail.com",
