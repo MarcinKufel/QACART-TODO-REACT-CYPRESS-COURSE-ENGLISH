@@ -1,5 +1,46 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "name": "Learn Cypress",
+      "isComplete": "false",
+      "id": 1
+    },
+    {
+      "name": "build framework",
+      "isComplete": "true",
+      "id": 2
+    },
+    {
+      "name": "shopping",
+      "isComplete": "false",
+      "id": 3
+    },
+    {
+      "name": "drink coffee",
+      "isComplete": "true",
+      "id": 4
+    },
+    {
+      "name": "Learn Cypress",
+      "isComplete": "false",
+      "id": 5
+    },
+    {
+      "name": "build framework",
+      "isComplete": "true",
+      "id": 6
+    },
+    {
+      "name": "shopping",
+      "isComplete": "false",
+      "id": 7
+    },
+    {
+      "name": "drink coffee",
+      "isComplete": "true",
+      "id": 8
+    }
+  ],
   "users": [
     {
       "email": "olivier@mail.com",

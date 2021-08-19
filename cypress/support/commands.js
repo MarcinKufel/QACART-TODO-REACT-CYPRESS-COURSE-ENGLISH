@@ -34,3 +34,39 @@ Cypress.Commands.add("addNewTodo", (todo) => {
     }
 
 })
+
+Cypress.Commands.add("addDummyTodos", () => {
+    const todos = [
+        {
+            "name": "Learn Cypress",
+            "isComplete": "false"
+        },
+        {
+            "name": "build framework",
+            "isComplete": "true"
+        },
+        {
+            "name": "shopping",
+            "isComplete": "false"
+        },
+        {
+            "name": "drink coffee",
+            "isComplete": "true"
+        },
+    ]
+
+    todos.forEach(todo => {
+        cy.request({
+            method:"POST",
+            url: "http://localhost:8080/todos",
+            body: todo
+            
+            // {
+            //     "name": todo.name,
+            //     "isComplete": todo.isComplete
+            // }
+        })
+    })
+
+    })
+
