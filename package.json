@@ -10,13 +10,17 @@
     },
     "devDependencies": {
         "json-server-auth": "^2.0.2",
-        "react-scripts": "0.9.5"
+        "react-scripts": "0.9.5",
+        "start-server-and-test": "^1.13.1"
     },
     "scripts": {
         "start:frontend": "react-scripts start",
         "start:server": "json-server -p 8080 db.json -m ./node_modules/json-server-auth -r routes.json",
+        "cy:run": "npx cypress run --record --key 3aa47169-f424-4c61-bb70-cd241aa137c6",
+        "build:and:test": "start-server-and-test start http://localhost:3000 cy:run",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "e2e:chrome": "cypress run --browser chrome --headless"
     }
 }
