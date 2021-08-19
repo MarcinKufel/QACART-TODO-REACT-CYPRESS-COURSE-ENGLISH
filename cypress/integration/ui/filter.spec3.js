@@ -3,8 +3,32 @@
 describe('filter functionality test cases', () => {
 
 
-    beforeEach(() => {
-        cy.addDummyTodos();
+    before(() => {
+        
+        cy.intercept({
+            method: 'GET',
+            url: 'http://localhost:8080/todos'
+        }, {
+            body: [
+                {
+                    "name": "Learn Cypress",
+                    "isComplete": "false"
+                },
+                {
+                    "name": "build framework",
+                    "isComplete": "true"
+                },
+                {
+                    "name": "shopping",
+                    "isComplete": "false"
+                },
+                {
+                    "name": "drink coffee",
+                    "isComplete": "true"
+                },
+            ]
+        })
+
         cy.visit("/"); 
     })
 
